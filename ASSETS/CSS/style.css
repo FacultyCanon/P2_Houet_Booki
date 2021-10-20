@@ -1,0 +1,301 @@
+/* GENERAL */
+html{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.flexCentre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexAround{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flexBetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexColumnCentre{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.flexColumnAround{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+.flexColumnBetween{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+/* NAVIGATEUR */
+.sizeNav{
+    height: 100px;
+}
+.sizeLiens{
+    width: 20%;
+}
+.colorLiens12{
+    color:#0065FF;
+}
+.colorLiens12:hover{
+    border-top: 1px solid #0065FF;
+    padding-top: 20px;
+}
+.textDecoration{
+    text-decoration: none;
+}
+.bordureNone{
+    border: none;
+}
+.colorBleuClair{
+    color: #deebff;
+}
+.colorBleu{
+    color: #0065FF;
+}
+.colorGris{
+    color: #f2f2f2;
+}
+.backBleu{
+    background-color: #0065FF;
+}
+.backBleuClair{
+    background-color: #deebff;
+}
+.backGris{
+    background-color: #f2f2f2;
+}
+.textGras{
+    font-weight: bold;
+    font-size: 20px;
+}
+.sizeLien{
+    width: 140px;
+    height: 99px;
+}
+.bordureNav{
+    border-top: 1px solid #0065FF;
+}
+.bordureNav2{
+    border-top: 1px solid transparent;
+}
+.margeLogo{
+    margin-bottom: 10px;
+}
+
+/* HEADER */
+.bordureSearch{
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid #f2f2f2;
+}
+.paddingSearch{
+    padding-left: 20px;
+}
+.recherche{
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.iconSize{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 0 0 10px;
+}
+.buttonSearch{
+    height: 50px;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+
+/* FILTRES */
+.margeFiltre{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.filtre{
+    display: flex;
+    align-items: center;
+}
+.margeFiltreTitre{
+    margin-right: 20px;
+
+}
+.filtreTextIcon{
+    border: 2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.filtreIcon{
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    color: #0065FF;
+    background-color: #deebff;
+    border-left: -2px;
+}
+.filtreIcon:hover{
+    background-color: #0065FF;
+    color: white;
+}
+.filtreTexte{
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+}
+
+/* INFO ICON */
+.info{
+    display: flex;
+    align-items: center;
+}
+.parentIcon{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+
+/* Hébergement à Marseille */
+.sizeHebergement{
+    flex: 2;
+    height: 650px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.sizePopulaire{
+    flex: 1;
+    height: 650px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.imgHebergement1{
+    background-image: url("/ASSETS/IMAGES/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imgHebergement2{
+    background-image: url("/ASSETS/IMAGES/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imgHebergement3{
+    background-image: url("/ASSETS/IMAGES/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imgHebergement4{
+    background-image: url("/ASSETS/IMAGES/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imgHebergement5{
+    background-image: url("/ASSETS/IMAGES/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imgHebergement6{
+    background-image: url("/ASSETS/IMAGES/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.blocHebergements{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cubeHebergements{
+    width: 30%;
+    height: auto;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+}
+.bloc1{
+    margin-bottom: 10px;
+}
+.bloc2{
+    margin-top: 10px;
+}
+.cubeDetailsHebergements{
+    width: 90%;
+}
+.flexColumnCentre{
+    display: flex;
+}
+/* POPULAIRE */
+.blocPopulaire{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.blocPopulaire12{
+    margin-bottom: 20px;
+}
+.cubeDetailsPopulaire{
+    width: 60%;
+    padding-left:5%;
+}
+.imgPopulaire1{
+    background-image: url("/ASSETS/IMAGES/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+}
+.imgPopulaire2{
+    background-image: url("/ASSETS/IMAGES/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+}
+.imgPopulaire3{
+    background-image: url("/ASSETS/IMAGES/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+}
+.cubePopulaire{
+    background-color: white;
+    height: auto;
+    padding: 1% 0 1% 1%;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
